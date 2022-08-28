@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="login.sem_sucesso_senha.test"
+    errors="0" failures="0" hostname="" id="" package="login" skipped="0"
+    tests="2" time="1.669" timestamp="">
+  
+    <testcase name="dado que eu acesso a pagina de login" classname="login.sem_sucesso_senha.test" time="0.8030" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="senha errada" classname="login.sem_sucesso_senha.test" time="0.8660" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

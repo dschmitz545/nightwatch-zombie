@@ -1,0 +1,23 @@
+{
+  "name": "zombieplus",
+  "version": "1.0.0",
+  "description": "projeto de teste automatizados com nightwatch",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch"
+  },
+  "keywords": [
+    "nodejs",
+    "webdriver",
+    "chromedriver",
+    "geckodriver",
+    "nightwatch"
+  ],
+  "author": "Diego Schmitz",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^104.0.0",
+    "geckodriver": "^3.0.2",
+    "nightwatch": "^2.3.3"
+  }
+}

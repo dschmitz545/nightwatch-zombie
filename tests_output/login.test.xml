@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="login.test"
+    errors="1" failures="0" hostname="" id="" package="login.test" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+      
+┌────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                                    │
+│   GeckoDriver cannot be found in the current project.                                              │
+│                                                                                                    │
+│    You can either install geckodriver from NPM with:                                               │
+│                                                                                                    │
+│       npm install geckodriver --save-dev                                                           │
+│                                                                                                    │
+│    or download it from https://github.com/mozilla/geckodriver/releases,                            │
+│   extract the archive and set &#34;webdriver.server_path&#34; config option to point to the binary file.   │
+│                                                                                                    │
+│                                                                                                    │
+│                                                                                                    │
+└────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+    </system-err>
+  
+
+    
+    <error message="GeckoDriver cannot be found in the current project."><![CDATA[
+      Error: GeckoDriver cannot be found in the current project.
+    at FirefoxServiceBuilder.getStartupErrorMessage (/mnt/SSD-DADOS/Projetos/QA/nightwatch-zombie/node_modules/nightwatch/lib/transport/selenium-webdriver/service-builders/base-service.js:197:26)
+    at new BaseService (/mnt/SSD-DADOS/Projetos/QA/nightwatch-zombie/node_modules/nightwatch/lib/transport/selenium-webdriver/service-builders/base-service.js:81:18)
+    at new FirefoxServiceBuilder (/mnt/SSD-DADOS/Projetos/QA/nightwatch-zombie/node_modules/nightwatch/lib/transport/selenium-webdriver/service-builders/firefox.js:4:1)
+    at GeckoDriver.createDriverService (/mnt/SSD-DADOS/Projetos/QA/nightwatch-zombie/node_modules/nightwatch/lib/transport/selenium-webdriver/index.js:171:28)
+    at GeckoDriver.createSession (/mnt/SSD-DADOS/Projetos/QA/nightwatch-zombie/node_modules/nightwatch/lib/transport/selenium-webdriver/index.js:223:18)
+    at NightwatchClient.createSession (/mnt/SSD-DADOS/Projetos/QA/nightwatch-zombie/node_modules/nightwatch/lib/core/client.js:672:27)
+    at TestSuite.createSession (/mnt/SSD-DADOS/Projetos/QA/nightwatch-zombie/node_modules/nightwatch/lib/testsuite/index.js:438:24)
+    at TestSuite.startTestSuite (/mnt/SSD-DADOS/Projetos/QA/nightwatch-zombie/node_modules/nightwatch/lib/testsuite/index.js:452:17)
+    at TestSuite.runTestSuite (/mnt/SSD-DADOS/Projetos/QA/nightwatch-zombie/node_modules/nightwatch/lib/testsuite/index.js:477:17)
+    at TestSuite.run (/mnt/SSD-DADOS/Projetos/QA/nightwatch-zombie/node_modules/nightwatch/lib/testsuite/index.js:932:17)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="login com sucesso" classname="login.test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
