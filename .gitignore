@@ -2,3 +2,6 @@
 node_modules
 logs
 tests_output
+*.zip
+*_
+*lock.json

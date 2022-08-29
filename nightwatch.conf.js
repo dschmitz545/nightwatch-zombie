@@ -15,10 +15,10 @@
 module.exports = {
   // An array of folders (excluding subfolders) where your tests are located;
   // if this is not specified, the test source must be passed as the second argument to the test runner.
-  src_folders: ['tests'],
+  src_folders: ['tests/cadastros'],
 
   // See https://nightwatchjs.org/guide/working-with-page-objects/using-page-objects.html
-  page_objects_path: ['node_modules/nightwatch/examples/pages/'],
+  page_objects_path: ['./pages/'],
 
   // See https://nightwatchjs.org/guide/extending-nightwatch/custom-commands.html
   custom_commands_path: ['node_modules/nightwatch/examples/custom-commands/'],
@@ -30,7 +30,7 @@ module.exports = {
   plugins: [],
   
   // See https://nightwatchjs.org/guide/#external-globals
-  globals_path : '',
+  globals_path : './hooks/globals.js',
 
   webdriver: {
     start_process: true,
